@@ -1,0 +1,210 @@
+.header-globo {
+    background-color: #f3f3f3;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    flex-wrap: wrap;
+}
+
+.menu-globo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.globo,
+.g1,
+.ge,
+.gshow,
+.globoplay,
+.tecnologia {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    padding: 10px 5px;
+}
+
+.globo {
+    color: #0669de;
+    border-top: 2px solid transparent;
+}
+
+.globo:hover {
+    color: #5AA2EB;
+}
+
+
+.g1 {
+    color: #C4170C;
+    border-top: 2px solid transparent;
+}
+
+.g1:hover {
+    border-color: #C4170C;
+}
+
+.ge {
+    color: #06AA48;
+    border-top: 2px solid transparent;
+}
+
+.ge:hover {
+    border-color: #06AA48;
+}
+
+.gshow {
+    color: #FF6700;
+    border-top: 2px solid transparent;
+}
+
+.gshow:hover {
+    border-color: #FF6700;
+}
+
+.globoplay {
+    color: #EE2033;
+    border-top: 2px solid transparent;
+}
+
+.globoplay:hover {
+    border-color: #EE2033;
+}
+
+.tecnologia {
+    color: #666;
+    border-top: 2px solid transparent;
+}
+
+.tecnologia:hover {
+    border-color: #666;
+}
+
+.todos-sites {
+    font-size: 0.76rem;
+    color: #666;
+    font-weight: 700;
+}
+
+/* Media query Header Globo */
+
+@media (max-width: 850px) {
+    .navegacao {
+        padding: 0px 20px;
+    }
+
+    .globo,
+    .g1,
+    .ge,
+    .gshow,
+    .globoplay,
+    .tecnologia {
+        font-family: Arial, sans-serif;
+        font-weight: 600;
+        padding: 10px 5px;
+        border: none;
+    }
+
+    .globo,
+    .g1,
+    .ge,
+    .gshow,
+    .globoplay,
+    .tecnologia:hover {
+        border: none;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .header-globo {
+        padding: 10px 0;
+    }
+
+    .navegacao {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .menu-globo {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .globo,
+    .g1,
+    .ge,
+    .gshow,
+    .globoplay,
+    .tecnologia {
+        font-family: Arial, sans-serif;
+        font-weight: 600;
+        padding: 0;
+        border: none;
+    }
+
+    .globo,
+    .g1,
+    .ge,
+    .gshow,
+    .globoplay,
+    .tecnologia:hover {
+        border: none;
+    }
+}
+
+/* Header título */
+
+.header-titulo {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo span {
+    color: #FD8A24;
+}
+
+.logo {
+    color: #ccc;
+    font-size: 2.2rem;
+}
+
+/* Header secundária */
+
+.header-secundaria {
+    background-color: #414141;
+    border-bottom: 5px solid #FD8A24;
+}
+
+.navegacao-secundaria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menu-secundario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.menu-secundario a {
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Media query Header secundário */
+
+@media (max-width: 1180px) {
+    .menu-secundario {
+        gap: 30px;
+        flex: 1;
+        padding: 0 20px;
+        justify-content: center;
+    }
+}
