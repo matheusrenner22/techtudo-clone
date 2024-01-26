@@ -4,4 +4,5 @@ This small project represents a clone similar to the TechTudo website, referring
 
 ![TechTudo - Website](https://github.com/matheusrenner22/techtudo-clone/blob/main/./img/techtudo-website.png?raw=true)
 
-[link]()
+
+[Visite a página aqui](https://matheusrenner22.github.io/techtudo-clone/)
